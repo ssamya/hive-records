@@ -20,9 +20,10 @@
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><a href="{% url 'Home' %}" class="nav-link px-2 text-secondary">Home</a></li>
           <li><a href="{% url 'Eq' %}" class="nav-link px-2 text-white">Equipment</a></li>
-          <li><a href="{% url 'Pricing' %}" class="nav-link px-2 text-white">Pricing</a></li>
-          <li><a href="{% url 'FAQ' %}" class="nav-link px-2 text-white">FAQs</a></li>
-          <li><a href="{% url 'About' %}" class="nav-link px-2 text-white">About us</a></li>
+          <li><a href="{% url 'Pricing' %}" class="nav-link px-2 text-white">Recording</a></li>
+          <li><a href="{% url 'FAQ' %}" class="nav-link px-2 text-white">Mixing</a></li>
+          <li><a href="{% url 'About' %}" class="nav-link px-2 text-white">Mastering</a></li>
+          <li><a href="{% url 'About' %}" class="nav-link px-2 text-white">Beats</a></li>
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -31,7 +32,7 @@
 
         <div class="text-end">
           <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sigh up</button>
+          <button type="button" class="btn btn-warning">Sign up</button>
         </div>
       </div>
     </div>
@@ -40,4 +41,7 @@
        {% block body %}{% endblock %}
     </div>
 </body>
+<footer class="container-fluid" id="footer">
+  .....<a class="nav-link" href="{% url 'FAQ' %} FAQ">
+</footer>
 </html>
